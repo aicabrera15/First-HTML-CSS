@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Just another planty webside</title>
+  <body>
+<h1 style="color: brown">Plant of the week is: Monstera Albo</h1>
+</body>
+
+	<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+  }
+
+  .background {
+    background: rgb(80,130,0);
+    background-blend-mode: darken;
+    background-size: cover;
+  }
+
+  .nav-list {
+    width: 60%;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 180px;
+    border-radius: 50px;
+  }
+
+  .nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+  }
+
+  .nav-list li a {
+    text-decoration: none;
+    color: ivory;
+  }
+
+  .nav-list li a:hover {
+    color: purple;
+  }
+
+  .rightnav {
+    width: 30%;
+    text-align: right;
+  }
+
+  #search {
+
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+
+}
+  .firstsection {
+    background-color: rgb(238, 220, 200);
+    height: 400px;
+  }
+
+  .secondsection {
+    background-color:rgb(238, 226,210);
+    height: 400px;
+  }
+
+
+  .box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    max-width: 80%;
+    margin: auto;
+    height: 80%;
+  }
+
+  .firsthalf {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .secondhalf {
+    width: 30%;
+  }
+
+  .secondhalf img {
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+  }
+
+  .text-big {
+    font-family: 'Piazzolla', serif;
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .text-small {
+    font-size: 18px;
+  }
+
+  .btn {
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: gray;
+    color: white;
+    cursor: pointer;
+  }
+
+  .btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+  }
+
+  .section {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .section-Left {
+    flex-direction: row-reverse;
+  }
+
+  .paras {
+    padding: 0px 65px;
+  }
+
+  .thumbnail img {
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .text-footer {
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+	</style>
+</head>
+
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src= "img/mons.jpg" alt ="">
+			</div>
+			<li><a href="#Fact">Monstera albo facts you may not know</a></li>
+			<li><a href="#care">Monstera albo Care </a></li>
+			<li><a href="#propagation">Propagating Monstera albo</a></li>
+		</ul>
+
+		<div class="rightNav">
+			<input type="text" name="search" id="search">
+			<button class="btn btn-sm">Search</button>
+		</div>
+	</nav>
+
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="Fact">Monstera albo facts you may not know</h1>
+				<p class="text-small">
+        The Mostera albo was discover by Botanist Charles Plumier in 1693.
+        Another ineteresting fact is that the variegation on the Monstera albo
+        can be quite unstable due to its natural mutation. As many plant the varigation
+        on this plant can reverse. However, there is a way to to bring the variation back.
+        The trick to keep the variegation going is with medium to high light, high humidity,
+        water the plant every time the top 4 inches of soil gets dry.
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="secondsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="care">Monsters albo Care
+
+				</h1>
+				<p class="text-small">
+					The monstera albo will need bright light. Place this plant in an area
+           that receives indirect or filtered sunlight all day long. Avoid
+           placing the albo in direct sunlight as this will burn its leaves.
+           The variegated pieces of the leaves are extra susceptible to sunburn.
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+    	<div class="box-main">
+    	<div class="firstHalf">
+			<h1 class="text-big" id="propagation">Propagating Monstera albo
+      </h1>
+
+			<p class="sectionSubTag text-small">
+				There are a few different ways to propagate an albo monstera plant.
+        The safest way to propagete will be by stem cutting. Since they are
+        easy to root and prom to get root rode is better after you cut the
+        stem to place it in purify water or in LECA.
+			</p>
+
+
+		</div>
+
+		<div class="thumbnail">
+			<img src= "img/mon.jpg" alt ="">
+		</div>
+	</section>
+
+	<footer class="background">
+		<p class="text-footer">
+	Instagram	@abbdcc15
+		</p>
+
+
+	</footer>
+</body>
+
+</html>
